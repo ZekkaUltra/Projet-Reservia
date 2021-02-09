@@ -212,3 +212,104 @@ button {
     align-items: center;
     justify-content: center;
 }
+
+img {
+    width: 320px;
+    height: 140px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.hébergements {
+    width: 100%;
+    height: 800px;
+}
+.hébergements__marseille {
+    width: 1280px;
+    height: 800px;
+    background-color:#F2F2F2;
+    border-radius: 20px;
+}
+.container__hébergements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.section__title {
+    padding-top: 40px;
+    padding-left: 20px;
+}
+aside {
+    width: 30%;
+}
+.hébergement__1 {
+    width: 320px;
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.hébergement__1 h3, p, .rating{
+    margin: 5px 10px;
+}
+.hébergement__2 {
+    width: 320px;
+    height: auto;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.hébergement__2 h3, p, .rating{
+    margin: 5px 10px;
+}
+.hébergement__3 {
+    width: 320px;
+    height: auto;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.hébergement__3 h3, p, .rating{
+    margin: 5px 10px;
+}
+.hébergement__4 {
+    width: 320px;
+    height: auto;
+    margin-left: 20px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.hébergement__5 {
+    width: 320px;
+    height: auto;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.hébergement__6 {
+    width: 320px;
+    height: auto;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
